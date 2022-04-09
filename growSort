@@ -1,0 +1,18 @@
+import random
+
+
+def exponential(x):
+    if x == sorted(x):
+        print(f"List is sorted!")
+        print(x)
+    else:
+        addition = random.randrange(10)
+        sortList.append(addition)
+        random.shuffle(x)
+        exponential(x)
+
+
+sortList = [1, 2]
+random.shuffle(sortList)
+
+exponential(sortList)
